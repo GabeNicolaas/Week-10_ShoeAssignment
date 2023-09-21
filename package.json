@@ -1,0 +1,22 @@
+{
+  "name": "-y",
+  "version": "1.0.0",
+  "description": "yy",
+  "main": "y",
+  "scripts": {
+    "test": "y"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "keywords": [
+    "y"
+  ],
+  "author": "y",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "jquery": "^3.7.0"
+  }
+}

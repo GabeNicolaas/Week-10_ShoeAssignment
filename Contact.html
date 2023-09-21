@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/dashboard.css" rel="stylesheet" />
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Shoe Reference</h1>
+   
+    <div class="menu-container">
+      <button class="menu-button">Menu</button>
+      <ul class="hidden-menu">
+        <li class="menu-item"><a href="Homepage.html">Home</a></li>
+          <li class="menu-item"> <a href="Kids.html">kids</a></li>
+          <li class="menu-item"> <a href="Women.html">Women</a></li>
+          <li class="menu-item"> <a href="Men.html">Mens</a></li>
+          <li class="menu-item"> <a href="Contact.html">Contact</a></li>
+      </ul>
+  </div>
+
+  <div class="container mt-5">
+    <form id="myForm" class="mb-3">
+        <div class="form-group">
+            <label for="name">Email:</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="age">Shoe Size:</label>
+            <input type="number" class="form-control" id="age" required>
+        </div>
+        <div class="form-group">
+          <label for="age">Shoe Brand:</label>
+          <input type="text" class="form-control" id="Brand" required>
+      </div>
+        <button type="submit" class="btn btn-primary">Add Row</button>
+    </form>
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Shoe Size</th>
+                <th>Shoe Brand</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Table rows will be added here -->
+        </tbody>
+    </table>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="week 10 Assignment/js/kids.js"></script>
+
+</body>
+</html>
